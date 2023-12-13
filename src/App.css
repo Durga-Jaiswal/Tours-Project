@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+   
+}
+body{
+    min-width:100%;
+    min-height: 100%;
+    margin: auto;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:  hsl(210, 36%, 96%);
+    color:hsl(209, 61%, 16%);
+    
+}
+p{
+    color: hsl(210, 22%, 49%);
+    text-align: left;
+}
+.container{
+    margin: auto;
+}
+.box{
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+.bottom-border{
+    border-bottom:5px solid hsl(209, 61%, 16%);
+    margin: 20px;
+}
+.tour-div{
+    
+    margin:auto;
+    max-width:430px;
+    padding:20px;
+
+}
+.tour-info{
+    display: flex;
+    justify-content: space-around;
+}
+img{
+    width: 300px;
+    height: 300px;
+    object-fit:cover;
+    border: 2px solid hsl(209, 61%, 16%);
+}
+
+.btn, .refresh-btn{
+    background-color: hsl(210, 22%, 49%);
+    color:hsl(206, 26%, 95%);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight:800;
+    margin:5px;
+    outline: none;
+    border: 2px solid hsl(209, 61%, 16%);
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn:hover, .refresh-btn:hover{
+    color:hsl(209, 61%, 16%);
+    background-color: hsl(210, 36%, 96%)
+}
+.readMoreBtn{
+    padding: none;
+    color:hsl(209, 61%, 16%);
+    text-decoration: underline;
+    font-weight: 700;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+}
